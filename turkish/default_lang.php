@@ -399,11 +399,11 @@ $lang["delete_timelog"] = "Zaman kaydını sil";
 $lang["timesheet_statistics"] = "Zaman kaydı istatistikleri";
 
 /* milestones */
-$lang["add_milestone"] = "Son Aşama Ekle";
-$lang["edit_milestone"] = "Son Aşamayı Düzenle";
-$lang["delete_milestone"] = "Son Aşamayı Sil";
-$lang["milestone"] = "Son Aşama";
-$lang["milestones"] = "Son Aşamalar";
+$lang["add_milestone"] = "Dönüm Noktası Ekle";
+$lang["edit_milestone"] = "Dönüm Noktası Düzenle";
+$lang["delete_milestone"] = "Dönüm Noktası Sil";
+$lang["milestone"] = "Dönüm Noktası";
+$lang["milestones"] = "Dönüm Noktaları";
 
 /* files */
 $lang["add_files"] = "Dosya ekle";
@@ -559,7 +559,7 @@ $lang["add_role"] = "Rol ekle";
 $lang["edit_role"] = "Rol düzenle";
 $lang["delete_role"] = "Rol sil";
 $lang["use_seetings_from"] = "Ayarları kullan";
-$lang["permissions"] = "İzinler";
+$lang["permissions"] = "Yetkiler";
 $lang["yes_all_members"] = "Evet, tüm üyeler";
 $lang["yes_specific_members_or_teams"] = "Evet, belirli üyeler, ya da departmanı";
 $lang["yes_specific_ticket_types"] = "Evet, özel bilet tipleri";
@@ -620,7 +620,7 @@ $lang["client_can_create_tasks"] = "Müşteriler görev yaratabilir mi?";
 $lang["client_can_edit_tasks"] = "Müşteriler görev düzenleyebilir mi?";
 $lang["client_can_comment_on_tasks"] = "Müşteriler görev yorumu yapabilir mi?";
 
-$lang["set_project_permissions"] = "Proje izinlerini ayarla";
+$lang["set_project_permissions"] = "Proje erişim yetkilerini ayarla";
 $lang["can_create_projects"] = "Proje oluşturabilir";
 $lang["can_edit_projects"] = "Proje düzenleyebilir";
 $lang["can_delete_projects"] = "Proje silebilir";
@@ -672,18 +672,18 @@ $lang["project_customer_feedback_replied"] = "Müşteri geri dönüş cevapladı
 $lang["client_signup"] = "Müşteri Kayıt";
 $lang["invoice_online_payment_received"] = "Online ödeme alındı";
 $lang["leave_application_submitted"] = "İzin uygulaması gönderildi";
-$lang["leave_approved"] = "İzin onaylandı";
-$lang["leave_assigned"] = "İzin atandı";
-$lang["leave_rejected"] = "İzin reddedildi";
-$lang["leave_canceled"] = "İzin vazgeçildi";
+$lang["leave_approved"] = "İş izni onaylandı";
+$lang["leave_assigned"] = "İş izni atandı";
+$lang["leave_rejected"] = "İş izni reddedildi";
+$lang["leave_canceled"] = "İş izni vazgeçildi";
 $lang["ticket_created"] = "Bilet oluşturuldu";
 $lang["ticket_commented"] = "Bilet yorumlandı";
 $lang["ticket_closed"] = "Bilet kapandı";
 $lang["ticket_reopened"] = "Bilet tekrar açıldı";
 $lang["leave"] = "Ayrıl";
 
-$lang["client_primary_contact"] = "Müşterinin ilk temsilcisi";
-$lang["client_all_contacts"] = "Tüm temsilciler";
+$lang["client_primary_contact"] = "Müşterinin ana temsilcisi";
+$lang["client_all_contacts"] = "Müşteri tüm temsilcileri";
 $lang["task_assignee"] = "Görevi devralan";
 $lang["task_collaborators"] = "Görevi paylaşanlar";
 $lang["comment_creator"] = "Yorumu oluşturan";
@@ -716,10 +716,10 @@ $lang["notification_project_customer_feedback_replied"] = "Yorum cevaplandı.";
 $lang["notification_client_signup"] = "Yeni bir müşteri olarak kaydoldu."; //Mr. X signed up as a new client.
 $lang["notification_invoice_online_payment_received"] = "Online ödeme sundu.";
 $lang["notification_leave_application_submitted"] = "İzin başvurusu sundu.";
-$lang["notification_leave_approved"] = "%s iznini onayladı."; //Approve a leave of Mr. X
-$lang["notification_leave_assigned"] = "%s iznini atadı."; //Assigned a leave to Mr. X
-$lang["notification_leave_rejected"] = "%s iznini reddetti."; //Approve a leave of Mr. X
-$lang["notification_leave_canceled"] = "İzin iptal edildi.";
+$lang["notification_leave_approved"] = "%s İş iznini onayladı."; //Approve a leave of Mr. X
+$lang["notification_leave_assigned"] = "%s İş iznini atadı."; //Assigned a leave to Mr. X
+$lang["notification_leave_rejected"] = "%s İş  iznini reddetti."; //Approve a leave of Mr. X
+$lang["notification_leave_canceled"] = "İş İzin iptal edildi.";
 $lang["notification_ticket_created"] = "Yeni bilet oluşturuldu.";
 $lang["notification_ticket_commented"] = "Bilet yorumlandı.";
 $lang["notification_ticket_closed"] = "Bilet kapatıldı.";
@@ -744,56 +744,56 @@ $lang["collaborators"] = "Yardımcılar";
 
 /* Version 1.4 */
 
-$lang["modules"] = "Modules";
-$lang["manage_modules"] = "Manage Modules";
-$lang["module_settings_instructions"] = "Select the modules you want to use.";
+$lang["modules"] = "Moduller";
+$lang["manage_modules"] = "Modülleri Yönet";
+$lang["module_settings_instructions"] = "Kullanmak istediğiniz modülü seçiniz.";
 
 $lang["task_point_help_text"] = "Task point considered as a task value. You can set 5 points for very difficult tasks and 1 point for easy tasks."; //meaning of task point
 
-$lang["mark_as_open"] = "Mark as Open";
-$lang["mark_as_closed"] = "Mark as Closed";
+$lang["mark_as_open"] = "Açık olarak işaretle";
+$lang["mark_as_closed"] = "Kapalı olarak işaretle";
 
-$lang["ticket_assignee"] = "Ticket assignee";
+$lang["ticket_assignee"] = "Bilet atandı";
 
-$lang["estimate"] = "Estimate";
-$lang["estimates"] = "Estimates";
-$lang["estimate_request"] = "Estimate Request";
-$lang["estimate_requests"] = "Estimate Requests";
-$lang["estimate_list"] = "Estimate List";
-$lang["estimate_forms"] = "Estimate Forms";
-$lang["estimate_request_forms"] = "Estimate Request Forms";
+$lang["estimate"] = "Tahmin";
+$lang["estimates"] = "Tahminler";
+$lang["estimate_request"] = "Tahmin Talebi";
+$lang["estimate_requests"] = "Tahmin Talepleri";
+$lang["estimate_list"] = "Tahmin Listesi";
+$lang["estimate_forms"] = "Tahmin Formları";
+$lang["estimate_request_forms"] = "Tahmin Talep Formu";
 
-$lang["add_form"] = "Add form";
-$lang["edit_form"] = "Edit form";
-$lang["delete_form"] = "Delete form";
+$lang["add_form"] = "Form Ekle";
+$lang["edit_form"] = "Form Güncelle";
+$lang["delete_form"] = "Formu Sil";
 
-$lang["add_field"] = "Add field";
-$lang["placeholder"] = "Placeholder";
-$lang["required"] = "Required";
+$lang["add_field"] = "Alan ekle";
+$lang["placeholder"] = "Yer Tutucu";
+$lang["required"] = "Gerekli";
 
-$lang["field_type"] = "Field Type";
-$lang["preview"] = "Preview";
+$lang["field_type"] = "Alan Tipi";
+$lang["preview"] = "Ön İzleme";
 
-$lang["field_type_text"] = "Text";
-$lang["field_type_textarea"] = "Textarea";
-$lang["field_type_select"] = "Select";
-$lang["field_type_multi_select"] = "Multi Select";
+$lang["field_type_text"] = "Metin";
+$lang["field_type_textarea"] = "Metin ALanı";
+$lang["field_type_select"] = "Seç";
+$lang["field_type_multi_select"] = "Çoklu Seç";
 
-$lang["request_an_estimate"] = "Request an Estimate";
+$lang["request_an_estimate"] = "Tahmin Talep Et";
 $lang["estimate_submission_message"] = "Your request has been submitted successfully!";
 
-$lang["hold"] = "Hold";
-$lang["processing"] = "Processing";
-$lang["estimated"] = "Estimated";
+$lang["hold"] = "Beklemede";
+$lang["processing"] = "İşleniyor";
+$lang["estimated"] = "Tahmin Edildi";
 
 $lang["add_estimate"] = "Add estimate";
 $lang["edit_estimate"] = "Edit estimate";
 $lang["delete_estimate"] = "Delete estimate";
 $lang["valid_until"] = "Valid until";
 $lang["estimate_date"] = "Estimate date";
-$lang["accepted"] = "Accepted";
-$lang["declined"] = "Declined";
-$lang["sent"] = "Sent";
+$lang["accepted"] = "Kabul edildi";
+$lang["declined"] = "Red edildi";
+$lang["sent"] = "Gönder";
 $lang["estimate_preview"] = "Estimate Preview";
 $lang["estimate_to"] = "Estimate To";
 
@@ -830,8 +830,8 @@ $lang["copy_tasks_start_date_and_deadline"] = "Copy tasks start date and deadlin
 $lang["task_comments_will_not_be_included"] = "Tasks comments will not be included";
 $lang["project_cloned_successfully"] = "The project has been cloned successfully";
 
-$lang["search"] = "Search";
-$lang["no_record_found"] = "No record found.";
+$lang["search"] = "Arama";
+$lang["no_record_found"] = "Kayıt bulunamadı.";
 $lang["excel"] = "Excel";
 $lang["print_button_help_text"] = "Press escape when finished.";
 $lang["are_you_sure"] = "Are you sure?";
@@ -839,47 +839,47 @@ $lang["file_upload_instruction"] = "Drag-and-drop documents here <br /> (or clic
 $lang["file_name_too_long"] = "Filename is too long.";
 $lang["scrollbar"] = "Scrollbar";
 
-$lang["short_sunday"] = "Sun";
-$lang["short_monday"] = "Mon";
-$lang["short_tuesday"] = "Tue";
-$lang["short_wednesday"] = "Wed";
-$lang["short_thursday"] = "Thu";
-$lang["short_friday"] = "Fri";
-$lang["short_saturday"] = "Sat";
+$lang["short_sunday"] = "Pzr";
+$lang["short_monday"] = "Pts";
+$lang["short_tuesday"] = "Sl";
+$lang["short_wednesday"] = "Çrş";
+$lang["short_thursday"] = "Prş";
+$lang["short_friday"] = "Cma";
+$lang["short_saturday"] = "Cts";
 
-$lang["min_sunday"] = "Su";
-$lang["min_monday"] = "Mo";
-$lang["min_tuesday"] = "Tu";
-$lang["min_wednesday"] = "We";
-$lang["min_thursday"] = "Th";
-$lang["min_friday"] = "Fr";
-$lang["min_saturday"] = "Sa";
+$lang["min_sunday"] = "Pzr";
+$lang["min_monday"] = "Pts";
+$lang["min_tuesday"] = "Sl";
+$lang["min_wednesday"] = "Çrş";
+$lang["min_thursday"] = "Prş";
+$lang["min_friday"] = "Cma";
+$lang["min_saturday"] = "Cmt";
 
-$lang["january"] = "January";
-$lang["february"] = "February";
-$lang["march"] = "March";
-$lang["april"] = "April";
-$lang["may"] = "May";
-$lang["june"] = "June";
-$lang["july"] = "July";
-$lang["august"] = "August";
-$lang["september"] = "September";
-$lang["october"] = "October";
-$lang["november"] = "November";
-$lang["december"] = "December";
+$lang["january"] = "Ocak";
+$lang["february"] = "Şubat";
+$lang["march"] = "Mart";
+$lang["april"] = "Nisan";
+$lang["may"] = "Mayıs";
+$lang["june"] = "Haziran";
+$lang["july"] = "Temmuz";
+$lang["august"] = "Ağustos";
+$lang["september"] = "Eylül";
+$lang["october"] = "Ekim";
+$lang["november"] = "Kasım";
+$lang["december"] = "Aralık";
 
-$lang["short_january"] = "Jan";
-$lang["short_february"] = "Feb";
+$lang["short_january"] = "Ock";
+$lang["short_february"] = "Şb";
 $lang["short_march"] = "Mar";
-$lang["short_april"] = "Apr";
+$lang["short_april"] = "Nis";
 $lang["short_may"] = "May";
-$lang["short_june"] = "Jun";
-$lang["short_july"] = "Jul";
-$lang["short_august"] = "Aug";
-$lang["short_september"] = "Sep";
-$lang["short_october"] = "Oct";
-$lang["short_november"] = "Nov";
-$lang["short_december"] = "Dec";
+$lang["short_june"] = "Haz";
+$lang["short_july"] = "Tem";
+$lang["short_august"] = "Ağt";
+$lang["short_september"] = "Eyl";
+$lang["short_october"] = "Ekm";
+$lang["short_november"] = "Ksm";
+$lang["short_december"] = "Arl";
 
 /* Version 1.5 */
 
